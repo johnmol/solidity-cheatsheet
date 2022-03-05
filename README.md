@@ -72,7 +72,7 @@ This guide is not intended to teach you Solidity from the ground up, but to help
 `// SPDX-License-Identifier: GPL-3.0`
 
 - Before publishing, consider adding a comment containing SPDX License-Identifier to each source file.
-- See https://spdx.org for mor info.
+- See https://spdx.org for more info.
 
 
 ## Version pragma
@@ -93,7 +93,7 @@ This guide is not intended to teach you Solidity from the ground up, but to help
 
 ### Boolean
 
-`bool` : `true` or `false`
+`bool` : `true` or `false` : Default `false`
 
 Operators:
 
