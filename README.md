@@ -14,6 +14,7 @@ This guide is not intended to teach you Solidity from the ground up, but to help
 - [Solidity Cheatsheet and Best practices](#solidity-cheatsheet-and-best-practices)
   * [Motivation](#motivation)
   * [Table of contents](#table-of-contents)
+  * [SPDX License Identifier](#spdx-license-identifier)
   * [Version pragma](#version-pragma)
   * [Import files](#import-files)
   * [Types](#types)
@@ -67,10 +68,16 @@ This guide is not intended to teach you Solidity from the ground up, but to help
     + [Mathematical and Cryptographic Functions](#mathematical-and-cryptographic-functions)
     + [Contract Related](#contract-related)
 
+## SPDX license identifier
+`// SPDX-License-Identifier: GPL-3.0`
+
+- Before publishing, consider adding a comment containing SPDX License-Identifier to each source file.
+- See https://spdx.org for mor info.
+
 
 ## Version pragma
 
-`pragma solidity ^0.5.2;`  will compile with a compiler version  >= 0.5.2 and < 0.6.0.
+`pragma solidity >=0.5.0 <0.9.0`  will compile with a compiler version  >= 0.5.0 and < 0.9.0.
 
 
 ## Import files
